@@ -7,6 +7,7 @@ public class UdacityCourseSubtitleFixer {
 
     public static void main(String[] args) throws IOException {
         files = new ArrayList<>();
+        // Path to anyudacity course folder
         File file = new File("E:\\Study\\_Career\\Trainings\\Mobile Application Launchpad\\Subs");
         listAllFiles(file.getAbsolutePath());
         for (File f : files) {
